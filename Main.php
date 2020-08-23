@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>QNEWS</title>
+    <style>
+        main {
+    
+            background: linear-gradient(#333230,#CCCCCC);
+        }
+        h2 ,p{
+            color: white;
+            font-weight:bold;
+        }
+       
+        
+    </style>
+    <link href="qnews.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <header>
+        <nav class="navbar navbar-dark bg-white container">
+            <h1 class = "logo">
+                <a href="http://localhost/Main.php?#"><img src="Qnews Logo.png" width="220" height="110"></img></a>
+            </h1>
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample01">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <hr class="featurette-divider bg-dark">
+                    <a class="nav-link bg-dark text-white" href="http://localhost/qnews.php?#" style="text-align:center">新聞快搜</a>
+                    <hr class="featurette-divider bg-dark">
+                </li>
+ 
+                <li class="nav-item">
+                    <a class="nav-link bg-dark text-white" href="http://localhost/statics.php?#" style="text-align:center">每周新聞趨勢圖表與分析</a>
+                    <hr class="featurette-divider bg-dark">
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link bg-dark text-white" href="http://localhost/aboutus.php?#" style="text-align:center">關於我們</a>
+                    <hr class="featurette-divider bg-dark">
+                </li>
+                
+                </ul>
+            
+            </div>
+        </nav> 
+    </header>
+
+    <main role="main">
+
+
+        <div class="container">
+
+            <!-- START THE FEATURETTES -->
+
+            <div class="row featurette">
+                <div class="col-md-7 ">
+                    <a href="http://localhost/qnews.php?#"><h2 class="featurette-heading">新聞快搜</h2></a>
+                    <p class="lead">這裡提供使用者快速獲取本日四大新聞平台新聞之新聞其內容分別為:</p>
+                    <p class="lead">新聞平台: 三立新聞、東森新聞、自由時報、民視新聞</p>
+                    <p class="lead">新聞版面: 社會、政治、國際、體育</p>
+                </div>
+                <div class="col-md-5">
+                    <a href="http://localhost/qnews.php?#"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="news.jpg" ></img></a>
+                </div>
+            </div>
+
+            <hr class="featurette-divider bg-white">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <a href="http://localhost/statics.php?#"><h2 class="featurette-heading">每周新聞趨勢圖表與分析</h2></a>
+                    <p class="lead">透過每周報導的新聞進行相似度比對並分析出這周的那些主題較為熱門並提供給使用者</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    
+                    <a href="http://localhost/statics.php?#"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="statistic.jpg" ></img></a>
+                    
+                </div>
+            </div>
+
+            <hr class="featurette-divider bg-white">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <a href="http://localhost/aboutus.php?#"><h2 class="featurette-heading">關於我們</h2></a>
+                    <p class="lead">關於此網站的動機、理念、參考資料、成員</p>
+                </div>
+                <div class="col-md-5">
+                    <a href="http://localhost/statics.php?#"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="us.jpg" ></img></a>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+            
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+    </main>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>QNEWS</title>
+    <style>
+        main {
+    
+            background: linear-gradient(#333230,#CCCCCC);
+        }
+        h2 ,p{
+            color: white;
+            font-weight:bold;
+        }
+        
+        .CONTENT {
+            background:black; 
+            color: white;
+        }
+        
+    </style>
+    <link href="qnews.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <header>
+        <nav class="navbar navbar-dark bg-white container">
+            <h1 class = "logo">
+                <a href="http://localhost/Main.php?#"><img src="Qnews Logo.png" width="220" height="110"></img></a>
+            </h1>
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample01">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <hr class="featurette-divider bg-dark">
+                    <a class="nav-link bg-dark text-white" href="http://localhost/qnews.php?#" style="text-align:center">新聞快搜</a>
+                    <hr class="featurette-divider bg-dark">
+                </li>
+ 
+                <li class="nav-item">
+                    <a class="nav-link bg-dark text-white" href="http://localhost/statics.php?#" style="text-align:center">每周新聞趨勢圖表與分析</a>
+                    <hr class="featurette-divider bg-dark">
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link bg-dark text-white" href="http://localhost/aboutus.php?#" style="text-align:center">關於我們</a>
+                    <hr class="featurette-divider bg-dark">
+                </li>
+                
+                </ul>
+            
+            </div>
+        </nav> 
+    </header>
+
+    <main role="main">
+
+
+        <div class="container">
+
+            <!-- START THE FEATURETTES -->
+            <div class="row featurette">
+                <div class="col-md-7 ">
+                    <h2 class="featurette-heading">新聞快搜</h2>
+                    <p class="lead">這裡提供使用者快速獲取本日四大新聞平台新聞之新聞其內容分別為:</p>
+                    <p class="lead">新聞平台: 三立新聞、東森新聞、自由時報、民視新聞</p>
+                    <p class="lead">新聞版面: 社會、政治、國際、體育</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="news.jpg" ></img>
+                </div>
+            </div>
+
+            <hr class="featurette-divider bg-white">
+            
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+    </main>
+    <br>
+    <div class="container">
+
+    <div class="WRAPPER row">
+
+        <div class = "SIDE col-md-3">
+        
+                <!--複選框-->
+                <div id="box1">
+                <div>
+                <h4>平台選擇</h4>
+                    <label><input type="checkbox" name="choose" value='1'>三立新聞</label>
+                    <label><input type="checkbox" name="choose" value='2'>東森新聞</label>
+                    <label><input type="checkbox" name="choose" value='3'>自由時報</label>
+                    <label><input type="checkbox" name="choose" value='4'>民視新聞</label>
+                </div>
+                <button id="btn1">確定</button>
+                </div>
+                <br>
+
+                <!--單選框-->
+                <div id="box2">
+                <div>
+                <h4>版選擇</h4>
+                    <label><input type="radio" name="fruit" value='0' checked="true">政治</label>
+                    <label><input type="radio" name="fruit" value='1'>娛樂</label>
+                    <label><input type="radio" name="fruit" value='2'>社會</label>
+                    <label><input type="radio" name="fruit" value='3'>體育</label>
+                </div>
+                <button id="btn2">取消</button>
+                <button id="btn3">確定</button>
+                </div>
+                <br>
+                <div class="box3">
+                <div class="container-1">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                </div>
+                <br>
+                </div>
+                    <div class="box4">
+                        <input id="date" type="date">
+                </div>
+                <br>
+        
+        </div>
+        <div class = "CONTENT col-md-9">
+            
+            <h1>新聞訊息放置處: 社會、政治、國際、體育</h1>
+            <br>
+            
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
