@@ -41,7 +41,7 @@
     <header>
         <nav class="navbar navbar-dark bg-white container">
             <h1 class = "logo">
-                <a href="http://localhost/Main.php?#"><img src="Qnews Logo.png" width="220" height="110"></img></a>
+                <a href="https://programerramon0.github.io/qnews/index.html"><img src="Qnews Logo.png" width="220" height="110"></img></a>
             </h1>
             <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,17 +51,17 @@
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <hr class="featurette-divider bg-dark">
-                    <a class="nav-link bg-dark text-white" href="http://localhost/qnews.php?#" style="text-align:center">新聞快搜</a>
+                    <a class="nav-link bg-dark text-white" href="https://programerramon0.github.io/qnews/qnews.php" style="text-align:center">新聞快搜</a>
                     <hr class="featurette-divider bg-dark">
                 </li>
  
                 <li class="nav-item">
-                    <a class="nav-link bg-dark text-white" href="http://localhost/statics.php?#" style="text-align:center">每周新聞趨勢圖表與分析</a>
+                    <a class="nav-link bg-dark text-white" href="https://programerramon0.github.io/qnews/statics.php" style="text-align:center">每周新聞趨勢圖表與分析</a>
                     <hr class="featurette-divider bg-dark">
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link bg-dark text-white" href="http://localhost/aboutus.php?#" style="text-align:center">關於我們</a>
+                    <a class="nav-link bg-dark text-white" href="https://programerramon0.github.io/qnews/aboutus.php" style="text-align:center">關於我們</a>
                     <hr class="featurette-divider bg-dark">
                 </li>
                 

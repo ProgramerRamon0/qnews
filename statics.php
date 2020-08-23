@@ -41,7 +41,7 @@
     <header>
         <nav class="navbar navbar-dark bg-white container">
             <h1 class = "logo">
-                <a href="http://localhost/Main.php?#"><img src="Qnews Logo.png" width="220" height="110"></img></a>
+                <a href="https://programerramon0.github.io/qnews/index.html"><img src="Qnews Logo.png" width="220" height="110"></img></a>
             </h1>
             <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,19 +51,20 @@
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <hr class="featurette-divider bg-dark">
-                    <a class="nav-link bg-dark text-white" href="http://localhost/qnews.php?#" style="text-align:center">新聞快搜</a>
+                    <a class="nav-link bg-dark text-white" href="https://programerramon0.github.io/qnews/qnews.php" style="text-align:center">新聞快搜</a>
                     <hr class="featurette-divider bg-dark">
                 </li>
  
                 <li class="nav-item">
-                    <a class="nav-link bg-dark text-white" href="http://localhost/statics.php?#" style="text-align:center">每周新聞趨勢圖表與分析</a>
+                    <a class="nav-link bg-dark text-white" href="https://programerramon0.github.io/qnews/statics.php" style="text-align:center">每周新聞趨勢圖表與分析</a>
                     <hr class="featurette-divider bg-dark">
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link bg-dark text-white" href="http://localhost/aboutus.php?#" style="text-align:center">關於我們</a>
+                    <a class="nav-link bg-dark text-white" href="https://programerramon0.github.io/qnews/aboutus.php" style="text-align:center">關於我們</a>
                     <hr class="featurette-divider bg-dark">
                 </li>
+                
                 </ul>
             
             </div>
@@ -78,12 +79,12 @@
             <!-- START THE FEATURETTES -->
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <a href="http://localhost/statics.php?#"><h2 class="featurette-heading">每周新聞趨勢圖表與分析</h2></a>
+                    <h2 class="featurette-heading">每周新聞趨勢圖表與分析</h2>
                     <p class="lead">透過每周報導的新聞進行相似度比對並分析出這周的那些主題較為熱門並提供給使用者</p>
                 </div>
                 <div class="col-md-5 order-md-1">
                     
-                    <a href="http://localhost/statics.php?#"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="statistic.jpg" ></img></a>
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="statistic.jpg" ></img>
                     
                 </div>
             </div>
